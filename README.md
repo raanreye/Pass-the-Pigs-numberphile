@@ -20,6 +20,8 @@ where:
     P(roll again)P(roll again) is the probability that the pigs do not land as 'Side (no dot)' and 'Side (dot)', which would score zero points.
     E(points)E(points) is the expected score per roll, calculated as the average of the points scored, weighted by the probability of each landing position.
 
+![Alt text](Howmanyrolls.png)
+
 ## Model 2: Optimal Score Target Before Passing
 
 This model determines the optimal score a player should aim for before deciding to pass the pigs to the next player. The critical equation is:
@@ -29,3 +31,4 @@ x=P(roll again)×E(expected)1−P(roll again)x=1−P(roll again)P(roll again)×E
 where:
 
     xx is the score at which the expected gain from an additional roll would be outweighed by the risk of losing points.
+![Alt text](WhatScore.png)
