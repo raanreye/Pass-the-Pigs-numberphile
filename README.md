@@ -3,7 +3,8 @@
 ## Overview
 
 This repository contains a Jupyter Notebook that explores statistical models to optimize player strategies in "Pass the Pigs", inspired by a discussion on the popular YouTube channel, Numberphile.
-The Game
+
+## The Game
 
 In "Pass the Pigs", players toss two pigs, and the landing positions determine their score. Points are accumulated in an attempt to reach exactly 100. If the pigs land in a position that scores zero points (an "oinker"), all points for that turn are lost. Similarly, exceeding 100 points results in losing all points gained in that round. The game combines elements of luck, risk, and strategy.
 
